@@ -1,4 +1,4 @@
-const clockConntainer = document.querySelector(".js-clock");//element의 자식 검
+const clockConntainer = document.querySelector(".js-clock");
 const clockTitle = clockConntainer.querySelector("h1");
 
 function getTime(){
@@ -11,8 +11,6 @@ function getTime(){
   }:${seconds < 10 ? `0${seconds}`:seconds
   }`;
 
-    //객체안에 텍스트 넣${}
-  //만약 초가 10보다 작으
 }
 
 function init(){
@@ -21,5 +19,3 @@ function init(){
 }
 
 init();
-
-//setInterval 함수와 ,실행할 시간 간격

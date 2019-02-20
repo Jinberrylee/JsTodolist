@@ -2,13 +2,44 @@ body {
   background-color: white;
 }
 
+.js-clock{
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+.js-form, .js-greetings{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-size: 20px;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.js-toDoList li {
+  margin-left: 400px;
+  list-style:none;
+  color: white;
+}
+
+.js-toDoForm{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
 .btn{
   cursor: pointer;
 }
 
 body {
   color: black;
-
 }
 
 .clicked{
@@ -19,6 +50,7 @@ body {
 .greetings {
   display: none;
 }
+
 .showing{
   display: block;
 }
